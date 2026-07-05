@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* App background behind the A4 pages */
+html,
+body {
+  margin: 0;
+  background: #e9eaee;
+}
+
+/* ── Browser print fallback (the main path is the Download PDF button) ── */
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  html,
+  body {
+    background: #fff;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .export-hide {
+    display: none !important;
+  }
+  .cv-page-sheet {
+    box-shadow: none !important;
+    break-after: page;
+  }
+}
