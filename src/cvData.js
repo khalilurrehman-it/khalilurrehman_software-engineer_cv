@@ -24,29 +24,39 @@ export const cv = {
       group: 'Frontend Development',
       side: 'left',
       items: [
-        { label: 'Frameworks & Libraries', value: 'React.js, Next.js, React Native, TanStack Query, TanStack Table' },
+        { label: 'Language', value: 'TypeScript, JavaScript' },
+        { label: 'Frameworks & Libraries', value: 'React.js, Next.js, React Native, Redux Toolkit, TanStack Query, TanStack Table' },
         { label: 'UI/UX', value: 'Responsive Design, Component-Based Architecture, Performance Optimization' },
-        { label: 'Styling Tools', value: 'Tailwind CSS, Bootstrap, CSS Modules' },
+        { label: 'Styling & UI', value: 'Tailwind CSS, shadcn/ui, Framer Motion, Bootstrap, CSS Modules' },
       ],
     },
     {
       group: 'Backend Development & Database',
       side: 'right',
       items: [
-        { label: 'Languages & Frameworks', value: 'Node.js, Express.js, Python, FastAPI' },
-        { label: 'Databases & ORM', value: 'PostgreSQL, MongoDB, Drizzle ORM, Firebase (Authentication, Firestore, Realtime DB)' },
+        { label: 'Languages & Frameworks', value: 'Node.js, Express.js, Hono, tRPC, Python, FastAPI' },
+        { label: 'Databases & ORM', value: 'PostgreSQL, MongoDB, Supabase, Redis, Drizzle ORM, Firebase (Authentication, Firestore, Realtime DB)' },
         { label: 'API Integration', value: 'RESTful APIs, third-party services' },
       ],
     },
     {
-      group: 'Tools & Version Control',
+      group: 'Services & Integrations',
       side: 'right',
+      items: [
+        { label: 'Auth & Payments', value: 'Better Auth, Stripe, Polar' },
+        { label: 'Media & Email', value: 'Cloudinary, Resend' },
+        { label: 'AI & Background Jobs', value: 'LangGraph, BullMQ' },
+      ],
+    },
+    {
+      group: 'Tools & Version Control',
+      side: 'left',
       items: [{ label: '', value: 'Git, GitHub, Bitbucket, Postman, Playwright' }],
     },
     {
       group: 'Cloud & DevOps',
       side: 'right',
-      items: [{ label: '', value: 'Azure Container Apps, Azure Blob Storage, Docker, GitHub Actions (CI/CD)' }],
+      items: [{ label: '', value: 'Azure Container Apps, Azure Blob Storage, Docker, GitHub Actions (CI/CD), Vercel, Railway' }],
     },
     {
       group: 'Software Architecture & Practices',
